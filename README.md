@@ -37,7 +37,11 @@ Record a short video of your story to display here on your README. You can do th
 
 ## Story Description
 
-Write a description of the story that your animation showcases. Give addional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcase.
+This story follows and presents all the movies that I watched from the months of June- December in 2024. The program displays a intro screen with a coressponding sound effect then goes to stating a month and the movies I watched. After a month is finsihed, it then shows the cover art and the score of the top movie, or highest scored movie in said month. After all months have 
+been presented, the next slide shows the total scores for each star rating, then leading to a Thank You slide at the end. 
+
 ## Image Filter Analysis
 
-Choose at least 2 filters uses in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+My program overall used 3 filiters, pixelate, keepColor, and colorize. The keepColor method changes the pixels by setting 2 of the coressponding blue, green, or red, values to 0 to only let 
+one color remain the same on the image. Another method that I used was the Colorize method, which takes the pixels of an image and notes the grey value of each pixel, and if it is higher or 
+lower value, it will be changed to a coressponding color: green, blue, or red.  
